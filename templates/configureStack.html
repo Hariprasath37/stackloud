@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Upload Custom Template</title>
+</head>
+<body>  
+
+    <!-- Image and text -->
+<nav class="navbar navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+        <img src="../static/stackloud_logo.png" alt="" height="24" class="d-inline-block align-top">
+        
+      </a>
+    </div>
+  </nav>
+    <div class="container-fluid">
+        <br>
+        <h1 class="display-6">Configure Stack</h1>
+       <p>Specify the Options to Configure Cloud</p>
+
+       <div class="card">
+        <div class="card-body">
+
+            <form method="POST">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Stack Name</label>
+                    <input type="Text" class="form-control" id="sname" placeholder="Enter your Stack Name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Existing Key Pair Name Value</label>
+                    <input type="Text" class="form-control" id="keypair" placeholder="Enter existing Key Pair Value">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Instance Type</label>
+                    <input type="Text" class="form-control" id="instType" placeholder="Enter your Instance Type">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">SSH Location</label>
+                    <input type="Text" class="form-control" id="sshloc" placeholder="Enter your SSH Location">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">DataBase Name</label>
+                    <input type="Text" class="form-control" id="dbname" placeholder="Enter your Database Name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Database User</label>
+                    <input type="Text" class="form-control" id="dbuser" placeholder="Enter your Database User Name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Database Password</label>
+                    <input type="Password" class="form-control" id="dbpassword" placeholder="Enter your Database Password">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Database Root Password</label>
+                    <input type="Password" class="form-control" id="dbrootpassword" placeholder="Enter your Root Password">
+                  </div>
+            </form>
+
+            <div class="mb-3">
+              <button class="btn btn-primary btn-sm">Deploy</button>
+              <a href="index.html" class="btn btn-secondary btn-sm">Go Back</a>
+            </div>
+
+        </div>
+      </div>
+        
+      <br>
+
+      <div class="card">
+        <div class="card-body">
+          <h6>Output URL</h6>
+        </div>
+      </div>
+       
+    </div>  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

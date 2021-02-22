@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Stackloud</title>
+</head>
+<body>
+    <!-- Image and text -->
+<nav class="navbar navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./static/stackloud_logo.png" alt="" height="24" class="d-inline-block align-top">
+      </a>
+    </div>
+  </nav>
+<br>
+  <div class="container">
+    <div class="text-center">
+      <img src="./static/stackloud_logo.png" class="img-fluid" alt="...">
+    </div>
+    
+    <br>
+
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Created At</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>test_stack</td>
+                    <td>6a44aed85bf68e3d11f3f315bbaa82ad222</td>
+                    <td> <span class="badge bg-success">CREATE_COMPLETE</span> </td>
+                    <td>2021-02-15 11:30:40 UTC+05:30</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>newStack</td>
+                    <td>Q2hxK6OBuU6K6ZIIBucFMCW2NJkhiSWD</td>
+                    <td><span class="badge bg-primary">ACTION_DELETE</span></td>
+                    <td>2021-02-17 10:28:39 UTC+05:30</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>stackloudTest</td>
+                    <td>6f79b0ad-aab4-11e6-971f-0f7b7e5b6782</td>
+                    <td><span class="badge bg-danger">ROLLBACK_COMPLETE</span></td>
+                    <td>2021-02-12 12:45:20 UTC+0530</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+      </div>
+
+     <br>
+
+    <div class="row">
+        <div class="col-sm-4">
+          <div class="card card bg-light text-dark">
+            <div class="card-body">
+              <h5 class="card-title">Default Template</h5>
+              <p class="card-text">Deploy the default Template</p>
+              <a href="./deployStack.html" class="btn btn-primary">Deploy Template</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card bg-light text-dark">
+            <div class="card-body">
+              <h5 class="card-title">Configure Stack</h5>
+              <p class="card-text">Configure a custom Stack</p>
+              <a href="./configureStack.html" class="btn btn-secondary">Get Started</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card bg-light text-dark">
+              <div class="card-body">
+                <h5 class="card-title">Custom Template</h5>
+                <p class="card-text">Upload a Custom Template</p>
+                <a href="./existingStack.html" class="btn btn-success">Configure</a>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+      <br><br><br>
+      
+      <footer class="footer">
+        Stackloud © 2020
+      </footer>
+      
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

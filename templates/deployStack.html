@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Deploy Default Stack</title>
+</head>
+<body>
+
+    <!-- Image and text -->
+<nav class="navbar navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./static/stackloud_logo.png" alt="" height="24" class="d-inline-block align-top">
+      </a>
+    </div>
+  </nav>
+
+  <div class="container">
+      <br>
+      <h1 class="display-6">Deploy Default Template</h1>
+      <p>deploy the default stack template</p>
+      <div class="card">
+          <div class="card-body">
+            <form action="/">
+                <div class="input-group mb-3">
+                    <input id="stackName" type="text" class="form-control" placeholder="Enter Stack Name" aria-label="Enter Stack Name" aria-describedby="button-addon2">
+                </div>
+            </form>
+            <div>
+              <button class="btn btn-success btn-sm" >Create Stack</button>
+              <a href="./index.html" class="btn btn-secondary btn-sm">Go Home</a>
+          </div>
+          
+          </div>        
+      </div>
+
+      <br><br>
+
+      <div class="card">
+        <div class="card-body">
+          <h6>Output URL</h6>
+          <a id="output" href="http://hariprasa-elasticl-1m95sejbegzlk-1101202544.ap-south-1.elb.amazonaws.com/wordpress"></a>
+        </div>
+      </div>
+    
+  </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
